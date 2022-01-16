@@ -1,0 +1,68 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.form-wrapper {
+  max-width: 404px;
+}
+
+.form {
+  max-width: 324px;
+}
+
+.form-control:focus,
+.form-control.is-valid:focus,
+.form-control.is-invalid:focus {
+  box-shadow: none;
+}
+
+.form-rounded {
+  border-radius: 1rem;
+}
+
+label,
+.link {
+  font-size: 0.75rem;
+  line-height: 16px;
+}
+
+.is-invalid ~ .invalid-feedback {
+  display: none;
+}
+
+.input-icon,
+.form-control.is-invalid,
+.form-control.is-valid {
+  padding-left: calc(2.5em + 0.25rem);
+  background-image: url('../src/img/email.svg');
+  background-repeat: no-repeat;
+  background-position: left 13.33px center;
+  font-size: 0.75rem;
+  height: 40px;
+}
+
+.email {
+  background-image: url('../src/img/email.svg');
+}
+
+.password {
+  background-image: url('../src/img/password.svg');
+}
+
+.button {
+  height: 48px;
+  font-weight: 500;
+}
+
+.button.form-rounded {
+  border-radius: 3rem;
+}
+
+.link a {
+  text-decoration: none;
+  color: #000;
+}
+
+.link a:hover {
+  text-decoration: underline;
+}
